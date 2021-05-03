@@ -4,10 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Jared Portfolio Wesbsite</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" /> 
     <link rel="stylesheet" href="./assets/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    
+    <header>
+        <section class="logo">
+            <!-- Needs image- this is like a logo type image-->
+            <img src="" alt="">   
+        </section>
+        <button class="navtoggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav"> 
+            <ul class= nav_list>
+                <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                <li class="nav_item"><a href="#aboutme" class="nav_link">About Me</a></li>
+                <li class="nav_item"><a href="#mywork" class="nav_link">My Work</a></li>
+
+                
+               
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Jared Minaga </strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+        
+        <img src="./imgs/self1.jpeg" alt="Osaka Castle" height="250" width="500" class="intro__img">
+    </section>
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">My Services</h2>
+        <div class="services">
+        <div class="service">
+            <h3 class='h3'>Front End</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nihil officiis distinctio dolores dolore perspiciatis quasi odit eveniet dolorum porro veniam rerum repudiandae quos praesentium ducimus quia optio nostrum atque?</p>
+        </div>
+        <div class="service">
+            <h3 class='h3'>Back End</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae incidunt dolorem reprehenderit aperiam, nisi et at veniam. Atque nulla sunt cupiditate obcaecati voluptatum minus saepe, aspernatur magni? Nobis, porro natus! </p>
+        </div>
+        <div class="service">
+            <h3 class='h3'>Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor voluptates, vel dignissimos odit enim, quo soluta quidem laboriosam, temporibus ad facere. Vero itaque fugiat nostrum tempora at a recusandae eligendi! </p>
+        </div>
+        
+    </div>
+    <a href="service" class=button>My Projects</a>
+    </section>
+
+
+    <section class="about-me" id="aboutme">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Chemist, Cellist, and Coder </p>
+        <div class="about-me__body">
+            <!-- add text here later !!-->
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sint quibusdam beatae magnam molestias, illo suscipit provident odit ipsum reiciendis nobis culpa fugiat placeat eligendi, repellat adipisci et illum voluptates.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio illo veritatis, itaque natus delectus iusto consectetur odit sit corrupti molestiae esse minus. Explicabo ut ipsa excepturi et quod! Repellat!</p>
+        </div>
+        <!-- Add image-->
+        <img src="./imgs/self2.jpeg" alt="Kenosha Pass" class="about-me__img" >
+
+    </section>
+
+
+<section class="mywork" id="mywork">
+    <h2 class="section__title section__title--work">My Work</h2>
+    <p class="section__subtitle section__subtitle--work">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, assumenda velit voluptas nisi porro commodi maiores quos, adipisci est dolore sapiente sed! Accusamus incidunt rem ipsum consequuntur accusantium, hic repudiandae.</p>
+    <div class="portfolio">
+
+        <a href="#" class="portfolioitem">
+            <img src="./imgs/work1.jpeg" alt="HTML" height="200px" width="200px" class="portfolio__img">
+        </a>
+
+        <a href="#" class="portfolioitem">
+            <img src="./imgs/work2.jpeg" alt="CSS" height="200px" width="200px" class="portfolio__img">
+        </a>
+
+        <a href="#" class="portfolioitem">
+            <img src="./imgs/work3.png" alt="JS" height="200px" width="200px" class="portfolio__img">
+        </a>
+
+        <a href="#" class="portfolioitem">
+            <img src="./imgs/work4.jpeg" alt="python" height="200px" width="200px" class="portfolio__img">
+        </a>
+        <a href="#" class="portfolioitem">
+            <img src="./imgs/work5.png" alt="react" height="200px" width="200px" class="portfolio__img">
+        </a>
+        <a href="#" class="portfolioitem">
+            <img src="./imgs/work6.png" alt="bootstrap" height="200px" width="200px" class="portfolio__img">
+        </a>
+    </div>
+
+
+</section>
+
+    <footer>
+        <a href="mailto:jared.minaga@gmail.com" class="footeremail">Gmail</a>
+        <ul class="social">
+            <li class="social item"> <a class="social" href="https://codepen.io">a</a></li>
+            <li class="social item"> <a class="social" href="https://codepen.io">b</a></li>
+            <li class="social item"> <a class="social" href="https://codepen.io">c</a></li>
+            <li class="social item"> <a class="social" href="https://codepen.io">d</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
